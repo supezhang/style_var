@@ -1,0 +1,48 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  outline: none;
+}
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+}
+/* Remove the margin in Firefox and Safari */
+button, input, optgroup, select, textarea{
+  margin: 0;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-canvas);
+  color: var(--color-text-primary);
+  font-family: "PingFangSC-Regular","Microsoft YaHei", "微软雅黑", "Helvetica", "Arial", sans-serif;
+}
+a{
+  color: var(--color-text-link);
+  text-decoration: none;
+}
+
+.mdi-set{
+  line-height: 1;
+}
+
+table td{
+  overflow-wrap: break-word;
+  word-break: break-all;
+}

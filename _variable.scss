@@ -1,0 +1,27 @@
+:root {
+  // spacing
+  --spacing: 10px;
+  --spacing-double: calc(var(--spacing) * 2);
+  --spacing-double-opposite: calc(var(--spacing-double) * -1);
+  --spacing-triple: calc(var(--spacing) * 3);
+  --spacing-quad: calc(var(--spacing) * 4);
+  --spacing-quint: calc(var(--spacing) * 5);
+  --spacing-half: calc(var(--spacing) / 2);
+  --spacing-third: calc(var(--spacing) / 3);
+
+  // font-size
+  --font-size-xs: 9px;
+  --font-size-xsl: 10px;
+  --font-size: 12px;
+  --font-size-sm: 11px;
+  --font-size-md: 14px;
+  --font-size-mdl: 16px;
+  --font-size-lgs: 20px;
+  --font-size-lgm: 24px;
+  --font-size-lg: 28px;
+  --font-size-xls: 30px;
+  --font-size-xl: 32px;
+  --font-size-xlm: 36px;
+  --font-size-xxls: 40px;
+  --font-size-xxl: 42px;
+}

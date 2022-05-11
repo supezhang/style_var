@@ -1,0 +1,69 @@
+body.theme-dark {
+  /* Text */
+  --color-text-primary: #c9d1d9;
+  --color-text-secondary: #8b949e;
+  --color-text-tertiary: #8b949e;
+  --color-text-placeholder: #484f58;
+  --color-text-disabled: #484f58;
+  --color-text-inverse: #0d1117;
+  --color-text-link: #58a6ff;
+  --color-text-danger: #f85149;
+  --color-text-success: #56d364;
+  --color-text-warning: #e3b341;
+  --color-text-purple: #a371f7;
+  --color-text-white: #f0f6fc;
+  --color-text-white-keep: #fff;
+  --color-text-primary-keep: #24292e;
+  --color-text-secondary-keep: #959da5;
+
+  /* Backgrounds */
+  --color-bg-canvas: #0d1117;
+  --color-bg-canvas-inverse: #f0f6fc;
+  --color-bg-canvas-inset: hsla(216, 28%, 5%, 1);
+  --color-bg-primary: #0d1117;
+  --color-bg-secondary: #0d1117;
+  --color-bg-tertiary: #161b22;
+  --color-bg-overlay: #161b22;
+  --color-bg-backdrop: rgba(1, 4, 9, 0.8);
+  --color-bg-info: rgba(56, 139, 253, 0.1);
+  --color-bg-info-inverse: #388bfd;
+  --color-bg-danger: rgba(248, 81, 73, 0.1);
+  --color-bg-danger-inverse: #da3633;
+  --color-bg-success: rgba(46, 160, 67, 0.1);
+  --color-bg-success-inverse: #2ea043;
+  --color-bg-warning: rgba(187, 128, 9, 0.1);
+  --color-bg-warning-inverse: #bb8009;
+  --color-bg-purple: rgba(188, 140, 255, 0.1);
+  --color-bg-purple-inverse: #a371f7;
+  --color-bg-canvas-inverse-keep: #24292e;
+  --color-bg-canvas-keep: #fff;
+  --color-bg-info-inverse-keep: #0366d6;
+
+  /* Borders */
+  --color-border-primary: #30363d;
+  --color-border-secondary: #21262d;
+  --color-border-tertiary: #6e7681;
+  --color-border-overlay: #30363d;
+  --color-border-inverse: #f0f6fc;
+  --color-border-info: rgba(56, 139, 253, 0.4);
+  --color-border-danger: rgba(248, 81, 73, 0.4);
+  --color-border-success: rgba(63, 185, 80, 0.4);
+  --color-border-warning: rgba(187, 128, 9, 0.4);
+  --color-border-purple: rgba(188, 140, 255, 0.4);
+  --color-border-white-keep: #fff;
+
+  /* shadow */
+  --color-shadow-small: 0 0 transparent;
+  --color-shadow-medium: 0 3px 6px #010409;
+  --color-shadow-large: 0 8px 24px #010409;
+  --color-shadow-extra-large: 0 10px 48px #010409;
+  --color-shadow-highlight: 0 0 transparent;
+  --color-shadow-inset: 0 0 transparent;
+
+  /* hover */
+  --color-hover-secondary: #b1bac4;
+  --color-hover-info: #58a6ff;
+  --color-hover-success: #3fb950;
+  --color-hover-danger: #f85149;
+  --color-hover-warning: #d29922;
+}

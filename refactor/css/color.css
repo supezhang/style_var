@@ -1,0 +1,122 @@
+:root{
+  /* Text */
+  --color-text-primary: #24292e;
+  --color-text-secondary: #586069;
+  --color-text-tertiary: #6a737d;
+  --color-text-placeholder: #6a737d;
+  --color-text-disabled: #959da5;
+  --color-text-inverse: #ffffff;
+  --color-text-link: #0366d6;
+  --color-text-danger: #cb2431;
+  --color-text-success: #22863a;
+  --color-text-warning: #b08800;
+  --color-text-purple: #5a32a3;
+  --color-text-white: #ffffff;
+  /* Backgrounds */
+  --color-bg-canvas: #ffffff;
+  --color-bg-canvas-inverse: #24292e;
+  --color-bg-canvas-inset: #f6f8fa;
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #fafbfc;
+  --color-bg-tertiary: #f6f8fa;
+  --color-bg-overlay: #ffffff;
+  --color-bg-backdrop: rgba(27,31,35,0.5);
+  --color-bg-info: #f1f8ff;
+  --color-bg-info-inverse: #0366d6;
+  --color-bg-danger: #ffeef0;
+  --color-bg-danger-inverse: #d73a49;
+  --color-bg-success: #dcffe4;
+  --color-bg-success-inverse: #28a745;
+  --color-bg-warning: #fff5b1;
+  --color-bg-warning-inverse: #ffd33d;
+  --color-bg-purple: #e6dcfd;
+  --color-bg-purple-inverse: #6f42c1;
+  /* Borders */
+  --color-border-primary: #e1e4e8;
+  --color-border-secondary: #ebedef;
+  --color-border-tertiary: #d1d5da;
+  --color-border-overlay: #e1e4e8;
+  --color-border-inverse: #ffffff;
+  --color-border-info: #0366d6;
+  --color-border-danger: #d73a49;
+  --color-border-success: #28a745;
+  --color-border-warning: #f9c513;
+  --color-border-purple: #6f42c1;
+
+  /* shadow */
+  --color-shadow-small: 0 1px 0 rgba(27,31,35,0.04);
+  --color-shadow-medium: 0 3px 6px rgba(149,157,165,0.15);
+  --color-shadow-large: 0 8px 24px rgba(149,157,165,0.2);
+  --color-shadow-extra-large: 0 10px 48px rgba(149,157,165,0.3);
+  --color-shadow-highlight: inset 0 1px 0 rgba(255,255,255,0.25);
+  --color-shadow-inset: inset 0 1px 0 rgba(225,228,232,0.2);
+
+  /* hover */
+  --color-hover-secondary: #586069;
+  --color-hover-info: #005cc5;
+  --color-hover-success: #2c974b;
+  --color-hover-danger: #cb2431;
+  --color-hover-warning: #f9c513;
+
+}
+
+body.theme-dark {
+  /* Text */
+  --color-text-primary: #c9d1d9;
+  --color-text-secondary: #8b949e;
+  --color-text-tertiary: #8b949e;
+  --color-text-placeholder: #484f58;
+  --color-text-disabled: #484f58;
+  --color-text-inverse: #0d1117;
+  --color-text-link: #58a6ff;
+  --color-text-danger: #f85149;
+  --color-text-success: #56d364;
+  --color-text-warning: #e3b341;
+  --color-text-purple: #a371f7;
+  --color-text-white: #f0f6fc;
+  /* Backgrounds */
+  --color-bg-canvas: #0d1117;
+  --color-bg-canvas-inverse: #f0f6fc;
+  --color-bg-canvas-inset: hsla(216,28%,5%,1);
+  --color-bg-primary: #0d1117;
+  --color-bg-secondary: #0d1117;
+  --color-bg-tertiary: #161b22;
+  --color-bg-overlay: #161b22;
+  --color-bg-backdrop: rgba(1,4,9,0.8);
+  --color-bg-info: rgba(56,139,253,0.1);
+  --color-bg-info-inverse: #388bfd;
+  --color-bg-danger: rgba(248,81,73,0.1);
+  --color-bg-danger-inverse: #da3633;
+  --color-bg-success: rgba(46,160,67,0.1);
+  --color-bg-success-inverse: #2ea043;
+  --color-bg-warning: rgba(187,128,9,0.1);
+  --color-bg-warning-inverse: #bb8009;
+  --color-bg-purple: rgba(188,140,255,0.1);
+  --color-bg-purple-inverse: #a371f7;
+  /* Borders */
+  --color-border-primary: #30363d;
+  --color-border-secondary: #21262d;
+  --color-border-tertiary: #6e7681;
+  --color-border-overlay: #30363d;
+  --color-border-inverse: #f0f6fc;
+  --color-border-info: rgba(56,139,253,0.4);
+  --color-border-danger: rgba(248,81,73,0.4);
+  --color-border-success: rgba(63,185,80,0.4);
+  --color-border-warning: rgba(187,128,9,0.4);
+  --color-border-purple: rgba(188,140,255,0.4);
+  /* shadow */
+  --color-shadow-small: 0 0 transparent;
+  --color-shadow-medium: 0 3px 6px #010409;
+  --color-shadow-large: 0 8px 24px #010409;
+  --color-shadow-extra-large: 0 10px 48px #010409;
+  --color-shadow-highlight: 0 0 transparent;
+  --color-shadow-inset: 0 0 transparent;
+  
+  /* hover */
+  --color-hover-secondary: #b1bac4;
+  --color-hover-info: #58a6ff;
+  --color-hover-success: #3fb950;
+  --color-hover-danger: #f85149;
+  --color-hover-warning: #d29922;
+
+}
